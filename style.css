@@ -1,0 +1,44 @@
+body{
+    background-attachment: fixed;
+    background: cadetblue;
+}
+
+h3{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0.9em;
+}
+
+.wrap{
+    width: 400px;
+    background-color:wheat;
+    padding: 15px;
+    margin: auto;
+    height: auto;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    width: 81px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#del{
+    width: 100%;
+}
